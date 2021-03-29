@@ -1,0 +1,127 @@
+body
+	{
+		font-family : Apple Chancery, cursive;
+		height: 100%;
+		width : 99%;
+		background-image: url('background.jpg');
+		color : white;
+	}
+	
+header
+	{
+		float : top;
+		width : 99%;
+		clear : both;
+		text-align : center;
+		border : 2px solid white;
+		margin : 0 auto;
+	}
+	
+footer
+	{
+		float : bottom;
+		width : 99%;
+		clear : both;
+		margin : 10px 0 0 0;
+		border : 2px solid white;
+		margin : 0 auto;
+		text-align : center;
+		padding : 5px;
+	}
+
+#bloc1
+	{
+		height: 100%;
+		width : 100%;
+	}
+	
+#menu
+	{
+		float : top;
+		border : 2px solid white;
+		margin : 0 0 10px 0;
+		height : 49%;	
+		text-align : center;
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+	}
+
+#left
+	{
+		float : left;
+		height : 650px;
+		width : 25%;
+		margin : 10px;
+		clear : inherit;
+	}
+
+#right
+	{
+		float : left;
+		margin : 10px;
+		height : 1200px;
+		width : 72.5%;
+		border : 2px solid white;
+		text-align : left;
+		font-size : 20px;
+	}
+	
+.gif
+	{
+		background: url(gif.gif);
+		background-repeat: no-repeat;
+		background-position: center
+	}
+
+span.a
+	{
+		background-color: #0aadbf;
+		padding : 20px;
+		display : block;
+		font-size : 50px;
+		font-weight : bold;
+	}
+
+a:link.m, a:visited.m
+	{
+		color: white;
+		background-color : #0b4b66;
+		border : 1px solid white;
+		padding: 5px;
+		display: block;
+	}
+	
+a:hover.m, a.:active.m
+	{
+	  background-color: #11668a;
+	  color: white;
+	}
+
+.image
+	{
+		position : relative;
+		top: 30%; 
+		left: 65%;
+	}
+
+table 
+	{
+		border: medium solid #6495ed;
+		border-collapse: collapse;
+	}
+
+th 
+	{
+		font-family: monospace;
+		border: thin solid #6495ed;
+		background-color: #D0E3FA;
+		background-image: url(sky.jpg);
+	}
+	
+td 
+	{
+		border: thin solid #6495ed;
+		text-align: center;
+	}
+	
